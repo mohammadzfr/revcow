@@ -1,0 +1,94 @@
+{
+    "jobs": [
+        {
+            "name": "Cowboy/Cowgirl",
+            "description": "Responsible for herding cattle on ranches, driving cattle to market, and general ranch work.",
+            "pay": 30,
+            "work_message": "Spent the day wrangling cattle on the ranch and earned ${{income}}."
+        },
+        {
+            "name": "Sheriff",
+            "description": "Elected law enforcement officer responsible for maintaining order, enforcing laws, and apprehending criminals.",
+            "pay": 40,
+            "work_message": "Kept the town safe and brought justice to its citizens, earning ${{income}}."
+        },
+        {
+            "name": "Outlaw",
+            "description": "A criminal who engaged in activities such as robbery, cattle rustling, and horse theft.",
+            "pay": 20,
+            "work_message": "Pulled off a successful heist and pocketed ${{income}}."
+        },
+        {
+            "name": "Saloon Owner/Bartender",
+            "description": "Operated saloons where cowboys and other patrons could drink, socialize, and sometimes gamble.",
+            "pay": 50,
+            "work_message": "Worked the bar, serving drinks and engaging with customers, making ${{income}} in tips."
+        },
+        {
+            "name": "Blacksmith",
+            "description": "Crafted and repaired metal items, including horseshoes, tools, and wagon parts.",
+            "pay": 35,
+            "work_message": "Put in a hard day's work at the forge, earning ${{income}}."
+        },
+        {
+            "name": "Stagecoach Driver",
+            "description": "Operated horse-drawn stagecoaches to transport passengers and mail between towns.",
+            "pay": 45,
+            "work_message": "Navigated treacherous terrain and delivered passengers safely, earning ${{income}}."
+        },
+        {
+            "name": "Miner",
+            "description": "Extracted minerals, such as gold, silver, and copper, from mines in search of wealth.",
+            "pay": 25,
+            "work_message": "Dug deep into the earth for precious minerals, earning ${{income}}."
+        },
+        {
+            "name": "Gambler",
+            "description": "Played various games of chance, such as poker and faro, in saloons and gambling halls.",
+            "pay": 50,
+            "work_message": "Took risks at the poker table and walked away with ${{income}} in winnings."
+        },
+        {
+            "name": "Prostitute",
+            "description": "Worked in brothels or as independent 'soiled doves,' providing companionship and sexual services to customers.",
+            "pay": 40,
+            "work_message": "Provided companionship and pleasure to clients, earning ${{income}}."
+        },
+        {
+            "name": "Rancher",
+            "description": "Owned and managed large tracts of land where cattle and other livestock were raised.",
+            "pay": 60,
+            "work_message": "Managed the ranch operations and oversaw the herd, making ${{income}} in profits."
+        },
+        {
+            "name": "Doctor/Surgeon",
+            "description": "Provided medical care and performed surgeries, often under primitive conditions.",
+            "pay": 70,
+            "work_message": "Performed life-saving surgeries and treated patients, earning ${{income}} in fees."
+        },
+        {
+            "name": "Undertaker",
+            "description": "Prepared bodies for burial and organized funeral services.",
+            "pay": 40,
+            "work_message": "Handled funeral arrangements with care and dignity, earning ${{income}}."
+        },
+        {
+            "name": "Teacher/Schoolmarm",
+            "description": "Educated children in one-room schoolhouses, teaching reading, writing, and arithmetic.",
+            "pay": 30,
+            "work_message": "Taught young minds and imparted knowledge, earning ${{income}} in wages."
+        },
+        {
+            "name": "Pony Express Rider",
+            "description": "Carried mail across long distances on horseback, often at great speed.",
+            "pay": 50,
+            "work_message": "Braved dangerous trails and delivered mail swiftly, earning ${{income}}."
+        },
+        {
+            "name": "Railroad Worker",
+            "description": "Constructed and maintained railroads, bridges, and other infrastructure vital for transportation and commerce.",
+            "pay": 45,
+            "work_message": "Laid tracks and maintained the railway, earning ${{income}}."
+        }
+    ]
+}

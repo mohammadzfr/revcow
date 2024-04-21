@@ -1,0 +1,79 @@
+{
+    "items": [
+        {
+            "name": "Revolver",
+            "description": "A handheld firearm with a revolving cylinder containing multiple chambers and at least one barrel for firing.",
+            "price": 50
+        },
+        {
+            "name": "Rifle",
+            "description": "A long-barreled firearm designed for accurate shooting at long ranges.",
+            "price": 80
+        },
+        {
+            "name": "Shotgun",
+            "description": "A firearm typically used for hunting and sport shooting, firing a spread of small pellets or a single slug.",
+            "price": 70
+        },
+        {
+            "name": "Saddle",
+            "description": "A supportive structure for a rider or other load, fastened to an animal's back.",
+            "price": 60
+        },
+        {
+            "name": "Horse",
+            "description": "A large, hoofed mammal commonly used for transportation and labor in the Old West.",
+            "price": 200
+        },
+        {
+            "name": "Wagon",
+            "description": "A four-wheeled vehicle used for transporting goods or people, typically pulled by horses.",
+            "price": 300
+        },
+        {
+            "name": "Pickaxe",
+            "description": "A hand tool with a hard head attached perpendicular to the handle, used for breaking up rocks or soil.",
+            "price": 20
+        },
+        {
+            "name": "Lasso",
+            "description": "A long, coiled rope with a loop at one end, used for roping cattle or other livestock.",
+            "price": 15
+        },
+        {
+            "name": "Whiskey Bottle",
+            "description": "A container for holding whiskey, a popular alcoholic beverage in the Old West.",
+            "price": 10
+        },
+        {
+            "name": "Gold Pan",
+            "description": "A shallow metal pan used for washing gold-bearing soil or gravel in search of gold.",
+            "price": 5
+        },
+        {
+            "name": "Saddlebags",
+            "description": "Bags attached to a saddle for carrying personal belongings or supplies while riding.",
+            "price": 25
+        },
+        {
+            "name": "Spurs",
+            "description": "Metal devices with a small spike or rotating disk worn on the heel of a boot, used to urge a horse forward.",
+            "price": 10
+        },
+        {
+            "name": "Pocket Watch",
+            "description": "A small watch designed to be carried in a pocket, typically with a chain attached.",
+            "price": 30
+        },
+        {
+            "name": "Canteen",
+            "description": "A container used to carry drinking water, typically made of metal or leather.",
+            "price": 8
+        },
+        {
+            "name": "Poker Chips",
+            "description": "Small, disc-shaped objects used to represent money or bets in poker and other gambling games.",
+            "price": 3
+        }
+    ]
+}
