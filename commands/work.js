@@ -1,6 +1,7 @@
 const { SlashCommandBuilder } = require("discord.js");
 const parseMilliseconds = require("parse-ms-2");
 const profileModel = require("../models/profileSchema");
+const statsModel = require("../models/statsSchema");
 const jobValues = require("../JobValues.json");
 
 function findJobByTitle(title) {
@@ -59,6 +60,7 @@ module.exports = {
 
         // const randomAmt = Math.floor(Math.random() * (10 - 1 + 1) + 1);
         const income = jobMatch.pay;
+        const stats = Math.random();
 
         try {
             await profileModel.findOneAndUpdate(
@@ -74,6 +76,34 @@ module.exports = {
             );
         } catch (err) {
             console.log(err);
+        }
+
+        if (stats < 0.5) {
+            try {
+                await statsModel.findOneAndUpdate(
+                    { userId: id },
+                    {
+                        $inc: {
+                            intelligence: income,
+                        },
+                    }
+                );
+            } catch (err) {
+                console.log(err);
+            }
+        } else {
+            try {
+                await statsModel.findOneAndUpdate(
+                    { userId: id },
+                    {
+                        $inc: {
+                            strength: income,
+                        },
+                    }
+                );
+            } catch (err) {
+                console.log(err);
+            }
         }
 
         const workEmbed = {
