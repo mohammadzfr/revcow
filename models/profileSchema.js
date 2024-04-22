@@ -4,7 +4,7 @@ const profileSchema = new mongoose.Schema({
     userId: { type: String, require: true, unique: true },
     serverId: { type: String, require: true },
     balance: { type: Number, default: 50 },
-    job: { type: String, default: "Miner" },
+    job: { type: String, default: null },
     jobLastUsed: { type: Number, default: 0 },
 });
 

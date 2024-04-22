@@ -12,4 +12,6 @@ const inventorySchema = new mongoose.Schema({
     // Add more inventory-related fields as needed
 });
 
-module.exports = mongoose.model("Inventory", inventorySchema);
+const model = mongoose.model("Inventory", inventorySchema);
+
+module.exports = model;

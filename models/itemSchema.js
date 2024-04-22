@@ -8,4 +8,6 @@ const itemSchema = new mongoose.Schema({
     // Add more item-related fields as needed
 });
 
-module.exports = mongoose.model("Item", itemSchema);
+const model = mongoose.model("Item", itemSchema);
+
+module.exports = model;
